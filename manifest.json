@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "manaba+R Confirmed Checker",
+    "version": "1.0",
+    "description": "manaba+Rで「確認済みにする」ボタンを自動で押す拡張機能",
+    "permissions": [],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://ct.ritsumei.ac.jp/ct/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
