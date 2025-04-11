@@ -17,10 +17,12 @@ manaba+Rの「確認済みにする」ボタンを自動でクリックしてく
 5. 本プロジェクトのディレクトリを選択（`manaba+R_confirmed_checker`）
 
 ## フォルダ構成
+```
 manaba+R_confirmed_checker/ 
 ├── content.js # ページに注入されるスクリプト 
 ├── manifest.json # 拡張機能の設定ファイル 
 └── README.md # このファイル
+```
 
 ## 注意事項
 
